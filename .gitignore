@@ -37,8 +37,8 @@ credentials.json
 huggingface/
 hf_cache/
 
-# Local datasets
-data/
+# Ignore dataset files, but keep the folder documentation
+data/*
 !data/README.md
 
 # FAISS indexes
