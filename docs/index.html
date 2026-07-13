@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hebrew RAG Prompt Injection Research</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .description {
+            background: white;
+            padding: 24px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 5px;
+            padding: 12px 18px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .button:hover {
+            background: #1d4ed8;
+        }
+
+        .pdf-container {
+            height: 900px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Detection and Analysis of Prompt Injection Attacks</h1>
+        <p>Prompt Injection Attacks in Hebrew RAG Systems</p>
+    </header>
+
+    <main>
+        <section class="description">
+            <h2>Technical Report</h2>
+
+            <p>
+                This project investigates prompt injection attacks in
+                Retrieval-Augmented Generation systems operating on Hebrew
+                legal documents.
+            </p>
+
+            <p>
+                The project includes data preparation, Hebrew document
+                chunking, vector retrieval using FAISS, language-model
+                evaluation, and experiments involving several prompt
+                injection attack types.
+            </p>
+
+            <div class="links">
+                <a class="button"
+                   href="technical-report.pdf"
+                   target="_blank">
+                    Open Technical Report
+                </a>
+
+                <a class="button"
+                   href="https://github.com/Daniellmass/hebrew-rag-prompt-injection"
+                   target="_blank">
+                    View GitHub Repository
+                </a>
+
+                <a class="button"
+                   href="https://colab.research.google.com/drive/1Naa8eAMWStG7ATxQE6wkpEsjN3ZlbD11"
+                   target="_blank">
+                    Open Google Colab
+                </a>
+            </div>
+        </section>
+
+        <section class="pdf-container">
+            <iframe
+                src="technical-report.pdf"
+                title="Technical Report">
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        Daniel Mass — NLP Final Project
+    </footer>
+</body>
+</html>
