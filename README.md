@@ -43,7 +43,7 @@ The experiments compare model behavior under clean and adversarial conditions to
 
 ```
 .
-├── Daniel_Mass_Detection_of_Prompt_Injection_Attacks.ipynb
+├── Detection_of_Prompt_Injection_Attacks.ipynb
 ├── requirements.txt
 ├── README.md
 ├── docs/
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 Open the notebook:
 
 ```
-Daniel_Mass_Detection_of_Prompt_Injection_Attacks.ipynb
+Detection_of_Prompt_Injection_Attacks.ipynb
 ```
 
 or run it directly using Google Colab.
